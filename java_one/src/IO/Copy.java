@@ -7,7 +7,7 @@ import java.io.*;
  */
 public class Copy {
     public static void main(String[] args) throws Exception {
-        copy("java_one/test","java_one/dest");
+        copy("java_one/11.png","java_one/dest.png");
     }
     public static void copy(String rootPath,String destPath) throws Exception{
         File root=new File(rootPath);//源头
